@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Caewash Model                                               Run execution date : 4/13/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/13/2021
+
+Replication ended at time      : 10.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Person.VATime                               .03867     (Insuf)    .00000     .04998         64    
+Person.NVATime                              .00000     (Insuf)    .00000     .00000         64    
+Person.WaitTime                             .00325     (Insuf)    .00000     .03629         64    
+Person.TranTime                             .00000     (Insuf)    .00000     .00000         64    
+Person.OtherTime                            .00000     (Insuf)    .00000     .00000         64    
+Person.TotalTime                            .04192     (Insuf)    .00000     .07694         64    
+Process 1.Queue.WaitingTime                 .00341     (Insuf)    .00000     .03629         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Person.WIP                                  .27258     (Insuf)    .00000     3.0000     1.0000    
+Resource 1.NumberBusy                       .25181     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .25181     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               .02077     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Person.NumberIn                             65.000    
+Person.NumberOut                            64.000    
+Resource 1.NumberSeized                     61.000    
+Resource 1.ScheduledUtilization             .25181    
+System.NumberOut                            64.000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.
